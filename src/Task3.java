@@ -8,9 +8,9 @@ public class Task3 {
 		double[] Kord = new double[9];
 		String[] Ind = {" ","ax","ay","bx","by","cx","cy","dx","dy"};
 		
-		for (int i=1; i<=8; i++) {
+		for (int i = 1; i <= 8; i++) {
 			System.out.println("¬ведите " + Ind[i] + " координату");
-			if(sc.hasNextDouble()) { 
+			if (sc.hasNextDouble()) { 
 				Kord[i] = sc.nextDouble();
 			} 
 			else {

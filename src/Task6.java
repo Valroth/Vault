@@ -14,8 +14,7 @@ public class Task6 {
 		} 
 	
 		for (int i=0; i<Text.length(); i++) {
-			if (Text.charAt(i) != '0'&Text.charAt(i) != '1'&Text.charAt(i) != '2'&Text.charAt(i) != '3'&Text.charAt(i) != '4'
-					&Text.charAt(i) != '5'&Text.charAt(i) != '6'&Text.charAt(i) != '7'&Text.charAt(i) != '8'&Text.charAt(i) != '9') {
+			if (!Character.isDigit(Text.charAt(i))) {
 				nText = nText + Text.charAt(i);
 			}
 		}

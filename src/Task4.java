@@ -17,7 +17,7 @@ public class Task4 {
 		
 		NODNOK NkNd = new NODNOK();
 		Scanner sc = new Scanner(System.in); 
-		int a=0,b=0,nd=0,nk=0;
+		int a = 0, b = 0, nd = 0, nk = 0;
 		
 		System.out.print("Введите первое целое число ");
 		if(sc.hasNextInt()) { 
@@ -36,8 +36,8 @@ public class Task4 {
 			System.out.println("Вы не ввели целое число");
    		}
 		
-		if ((a&b)!=0) {	
-			if (a>b) {
+		if ((a&b) != 0) {	
+			if (a > b) {
 				nd=NkNd.nod(Math.abs(a),Math.abs(b));
 				System.out.println("НОД равно " + nd);
 				nk=NkNd.nok(Math.abs(a),Math.abs(b));

@@ -18,7 +18,7 @@ public class Task5 {
    		}
 		
 	
-		for (int i=0; i<=Slovo.length()/2; i++ ) {
+		for (int i = 0; i <= Slovo.length()/2; i++ ) {
 			if  (Slovo.charAt(i) != Slovo.charAt(Slovo.length()-i-1)) { 
 				Pol = false;
 			}

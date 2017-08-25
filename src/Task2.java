@@ -8,7 +8,7 @@ public class Task2 {
 		int n=0;
 		
 		System.out.print("¬ведите натуральное число N: ");
-		if(sc.hasNextInt()) { 
+		if (sc.hasNextInt()) { 
           n = sc.nextInt();
 		} 
 		else {
@@ -16,14 +16,14 @@ public class Task2 {
    		}
 		
 		if(n>2) {
-		int n1=1,n2=2,nn=2;
+		int n1 = 1, n2 = 2, nn = 2;
 		System.out.print(n1 + " 1 ");
 		do {
 			System.out.print(nn + " ");
 			nn = n1 + n2;
 			n1 = n2;
 			n2 = nn;}
-		while (nn<n);
+		while (nn < n);
 		}
 	}
 
